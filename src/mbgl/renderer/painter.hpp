@@ -32,7 +32,6 @@ class RenderStyle;
 class RenderTile;
 class SpriteAtlas;
 class View;
-class GlyphAtlas;
 class LineAtlas;
 struct FrameData;
 class Tile;
@@ -151,7 +150,6 @@ private:
     const float depthEpsilon = 1.0f / (1 << 16);
 
     SpriteAtlas* spriteAtlas = nullptr;
-    GlyphAtlas* glyphAtlas = nullptr;
     LineAtlas* lineAtlas = nullptr;
 
     optional<OffscreenTexture> extrusionTexture;
